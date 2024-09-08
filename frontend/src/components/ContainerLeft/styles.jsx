@@ -44,9 +44,18 @@ export const Section = styled.div`
     }
 
     p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
         color: #fff;
         background: transparent; 
+        font-size: 15px;
         margin-bottom: 30px;
+        width: 8vw;
+        height: 2.5vh;
+        border-radius: 5px;
+        background-color: #3434347a;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
     }
 `
 export const Line = styled.div`
@@ -56,23 +65,21 @@ export const Line = styled.div`
     width: 70%; 
     height: 2px;
     background-color: #4b4b4b;
-    margin: 10px 0px;
+    margin: 10px 0px  35px;
 `
 
 export const ContainInfor = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 35px;
   color: #fff;
   background: transparent; 
-  margin-top: 40px;
-  width: 60%;
+
 
   div {
     display: flex;
-    align-items:center;
-    gap: 20px; 
-    background: transparent; 
+    gap: 10px;
+    background: transparent;
   }
 
   a {
@@ -82,21 +89,39 @@ export const ContainInfor = styled.div`
     justify-content: center;
     align-items: center;
     background-color: #3434342c;
-    height: 4vh;
-    width: 2.5vw;
+    height: 6vh;
+    width: 4vw;
     border: #ffffff16 solid 1px;
     border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
 
     &:hover {
       transform: scale(1.1);
-      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    }
+
+    &:active {
+      box-shadow: 0 4px 8px rgba(252, 252, 252, 0.2);
+      background-color: #6a69692c;
     }
   }
+`;
 
-  span {
-    font-size: 16px;
-    color: #fff;
-    background: transparent; 
+export const Span = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 8px;
+
+  span, label {
+    font-size: 15px;
+    color: #afafaf;
+    background: transparent;
+    margin-bottom: 5px;
+  }
+
+  label {
+    font-weight: bold; 
   }
 `;
