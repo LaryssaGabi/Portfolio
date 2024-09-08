@@ -11,7 +11,7 @@ export const Container = styled.div`
     height: calc(100vh - 100px); 
     width: 25vw;
     border-radius: 30px;
-    box-shadow: 0px 0px 22px rgba(123, 123, 123, 0.5); 
+    box-shadow: 0px 0px 22px rgba(189, 189, 189, 0.5); 
     background: rgba(51, 51, 51, 0.4); 
 `
 
@@ -59,13 +59,16 @@ export const Section = styled.div`
     }
 `
 export const Line = styled.div`
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 70%; 
-    height: 2px;
-    background-color: #4b4b4b;
-    margin: 10px 0px  35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%; 
+  height: 2px;
+  background-color: #4b4b4b;
+  margin: 10px 0px 35px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+
+
 `
 
 export const ContainInfor = styled.div`

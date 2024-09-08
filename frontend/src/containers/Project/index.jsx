@@ -3,7 +3,7 @@ import ContainerRight from "../../components/ContainerRight"
 import { TitlePorti } from "../../components/Title/styles"
 import { Container, ConteinerAbout } from "./styles"
 
-function Home() {
+function Project() {
 
   return (
     <>
@@ -11,7 +11,7 @@ function Home() {
         <ContainerLeft />
         <ContainerRight>
           <ConteinerAbout>
-            <TitlePorti>About Me</TitlePorti>
+            <TitlePorti>Portfolio</TitlePorti>
           </ConteinerAbout>
         </ContainerRight>
       </Container>
@@ -19,4 +19,4 @@ function Home() {
   )
 }
 
-export default Home
+export default Project
