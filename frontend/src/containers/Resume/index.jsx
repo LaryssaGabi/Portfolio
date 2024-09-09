@@ -1,7 +1,7 @@
 import ContainerLeft from "../../components/ContainerLeft"
 import ContainerRight from "../../components/ContainerRight"
 import { TitlePorti } from "../../components/Title/styles"
-import { Container, ConteinerAbout } from "./styles"
+import { Container, ConteinerAbout, Line } from "./styles"
 
 function Resume() {
   return (
@@ -12,6 +12,7 @@ function Resume() {
           <ConteinerAbout>
             <TitlePorti>Resume</TitlePorti>
           </ConteinerAbout>
+          <Line />
         </ContainerRight>
       </Container>
     </>

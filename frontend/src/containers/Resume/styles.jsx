@@ -12,3 +12,16 @@ export const ConteinerAbout = styled.div`
     display:flex;
     background: transparent;
 `
+export const Line = styled.div`
+  height: 5px;
+  width: 10%;
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: #31a2a2;
+  box-shadow: 0 0 10px rgba(49, 162, 162, 0.6); 
+  transition: box-shadow 0.3s ease-in-out; 
+  
+  &:hover {
+    box-shadow: 0 0 15px rgba(49, 162, 162, 1); 
+  }
+`;

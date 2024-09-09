@@ -1,7 +1,7 @@
 import ContainerLeft from "../../components/ContainerLeft"
 import ContainerRight from "../../components/ContainerRight"
 import { TitlePorti } from "../../components/Title/styles"
-import { Container, ConteinerAbout } from "./styles"
+import { Container, ConteinerAbout, Line } from "./styles"
 
 function Project() {
 
@@ -13,6 +13,7 @@ function Project() {
           <ConteinerAbout>
             <TitlePorti>Portfolio</TitlePorti>
           </ConteinerAbout>
+          <Line />
         </ContainerRight>
       </Container>
     </>
