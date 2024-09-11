@@ -12,7 +12,7 @@ export const Container = styled.div`
     width: 25vw;
     border-radius: 30px;
     box-shadow: 0px 0px 22px rgba(189, 189, 189, 0.5); 
-    background: rgba(51, 51, 51, 0.4); 
+    background: rgba(51, 51, 51, 0.342);
 `
 
 
@@ -67,8 +67,6 @@ export const Line = styled.div`
   background-color: #4b4b4b;
   margin: 10px 0px 35px;
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
-
-
 `
 
 export const ContainInfor = styled.div`

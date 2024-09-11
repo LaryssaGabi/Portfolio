@@ -9,7 +9,7 @@ export default createGlobalStyle`
         outline: none;
         text-decoration: none;
         font-family: "Montserrat", sans-serif;
-        background:#010012;
+        background:#0e0e12;
     }
 
 `

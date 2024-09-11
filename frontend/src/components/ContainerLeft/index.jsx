@@ -21,7 +21,7 @@ function ContainerLeft() {
 
           <div>
             <a href="mailto:lary.gabriela85@gmail.com" target="_blank" rel="noopener noreferrer">
-              <Mails style={{ color: '#4a9e8f', background: 'transparent' }} size={30} />
+              <Mails style={{ color: '#42a1aa', background: 'transparent' }} size={30} />
             </a>
             <Span>
               <span>Email</span>
@@ -31,7 +31,7 @@ function ContainerLeft() {
 
           <div>
             <a href="tel:+5531971026619">
-              <Smartphone style={{ color: '#4a9e8f', background: 'transparent' }} size={30} />
+              <Smartphone style={{ color: '#42a1aa', background: 'transparent' }} size={30} />
             </a>
             <Span>
               <span>Telefone</span>
@@ -41,7 +41,7 @@ function ContainerLeft() {
 
           <div>
             <a href="https://www.linkedin.com/in/laryssa-gabriela-alves/" target="_blank" rel="noopener noreferrer">
-              <Linkedin style={{ color: '#4a9e8f', background: 'transparent' }} size={30} />
+              <Linkedin style={{ color: '#42a1aa', background: 'transparent' }} size={30} />
             </a>
             <Span>
               <span>LinkedIn</span>
@@ -51,7 +51,7 @@ function ContainerLeft() {
 
           <div>
             <a href="https://github.com/LaryssaGabi" target="_blank" rel="noopener noreferrer">
-              <Github style={{ color: '#4a9e8f', background: 'transparent' }} size={30} />
+              <Github style={{ color: '#42a1aa', background: 'transparent' }} size={30} />
             </a>
             <Span>
               <span>GitHub</span>
