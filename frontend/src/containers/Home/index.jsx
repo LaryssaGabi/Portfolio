@@ -7,8 +7,8 @@ import CardAbout from "../../components/CardAbout/index"
 
 import webDevImage from '../../assets/biblioteca.png';
 import prototypingImage from '../../assets/wireframe.png'; 
-// import fullStackImage from '../../assets/full-stack.png'; 
-// import apiIntegrationImage from '../../assets/api-integration.png';
+import fullStackImage from '../../assets/software-de-impressao-3d.png'; 
+import apiIntegrationImage from '../../assets/api.png';
 
 function Home() {
 
@@ -48,10 +48,12 @@ function Home() {
               <CardAbout
                 title="Full Stack Development"
                 description="Desenvolvo aplicações full stack integrando o front-end com o back-end, utilizando tecnologias como React, Node.js e bancos de dados."
+                image={fullStackImage}
               />
               <CardAbout
                 title="API Integration"
                 description="Especialista em integrar APIs RESTful para conectar o front-end ao back-end, criando soluções dinâmicas e eficientes."
+                image={apiIntegrationImage}
               />
             </Card>
           </Doing>

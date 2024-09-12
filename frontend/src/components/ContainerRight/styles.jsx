@@ -5,7 +5,7 @@ export const Container = styled.div`
   justify-content: space-between;
   align-items: flex-start;
   margin-left: calc(25vw + 80px);
-  height: 100vh;
+  min-height: 100vh;
   width: calc(65vw - 80px);
   border-radius: 30px;
   background: rgba(51, 51, 51, 0.342);
@@ -20,4 +20,5 @@ export const Content = styled.div`
   padding: 60px 20px 0 20px;
   border-top-right-radius: 30px;
   background: transparent;
+
 `;
