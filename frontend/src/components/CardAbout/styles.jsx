@@ -12,17 +12,15 @@ export const Cards = styled.div`
     flex-direction: row; 
     background: #1313138f;
     width: 25vw;
-    padding: 30px;
     border-radius: 20px;
     border: 1px solid #ffffff51;
     box-shadow: 0px 8px 10px rgba(20, 20, 20, 0.974);
     transition: transform 0.4s ease, box-shadow 0.4s ease, background 0.4s ease;
     
     img {
-        width: 30%; 
-        height: 80%; 
-        border-radius: 15px; 
-        margin-right: 20px;
+        width: 20%; 
+        height: 50%; 
+        margin: 40px;
         background: transparent;
     }
 

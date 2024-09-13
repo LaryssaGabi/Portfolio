@@ -22,6 +22,10 @@ export const Line = styled.div`
   background-color: #31a2a2;
   box-shadow: 0 0 10px rgba(49, 162, 162, 0.6);
   transition: box-shadow 0.3s ease-in-out;
+
+  &:hover {
+    box-shadow: 0 0 15px rgba(49, 162, 162, 1); 
+  }
 `;
 
 export const Title = styled.h2`
