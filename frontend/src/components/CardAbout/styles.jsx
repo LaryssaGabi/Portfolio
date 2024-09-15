@@ -4,13 +4,13 @@ export const Card = styled.div`
     display: flex;
     background: transparent;
     color: #dcdada;
-    justify-content: center; /* Centraliza o Card dentro do CardAbout */
+    justify-content: center; 
 `;
 
 export const Cards = styled.div`
     display: flex;
     flex-direction: row; 
-    background: #1313138f;
+    background: #333435ac;
     width: 25vw;
     border-radius: 20px;
     border: 1px solid #ffffff51;

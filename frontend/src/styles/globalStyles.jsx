@@ -3,7 +3,7 @@ import { createGlobalStyle } from 'styled-components'
 
 export default createGlobalStyle`
     body{
-        background:#0e0e12;
+        background:#151515;
     }
     
     * {

@@ -37,7 +37,7 @@ export const ContainerParagrafo = styled.div`
 
 export const Pragrafo = styled.p`
   background: transparent;
-  color: #938e8e;
+  color: #c3baba;
   margin-bottom: 20px;
   font-size: 16px;
   padding: 0 20px;

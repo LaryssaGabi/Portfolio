@@ -18,7 +18,7 @@ function Home() {
         <ContainerLeft />
         <ContainerRight>
           <ConteinerAbout>
-            <TitlePorti>About Me</TitlePorti>
+            <TitlePorti>Sobre Mim</TitlePorti>
           </ConteinerAbout>
           <Line />
           <ContainerParagrafo>
@@ -33,7 +33,7 @@ function Home() {
             </Pragrafo>
           </ContainerParagrafo>
           <Doing>
-            <h2>What I'm Doing</h2>
+            <h2>O que eu faço:</h2>
             <Card>
               <CardAbout
                 title="Web Development"

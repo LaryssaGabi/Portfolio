@@ -2,7 +2,7 @@
 const Education = ({ year, school, description }) => (
   <div>
     <h3>{year} • {school}</h3>
-    <p style={{ color: '#938e8e', marginTop: '5px' }}>{description}</p>
+    <p style={{ color: '#c3baba', marginTop: '5px' }}>{description}</p>
   </div>
 );
 
