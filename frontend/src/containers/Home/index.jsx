@@ -51,7 +51,7 @@ function Home() {
                 image={fullStackImage}
               />
               <CardAbout
-                title="API Integration"
+                title="API"
                 description="Especialista em integrar APIs RESTful para conectar o front-end ao back-end, criando soluções dinâmicas e eficientes."
                 image={apiIntegrationImage}
               />
