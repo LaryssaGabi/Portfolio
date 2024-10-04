@@ -10,12 +10,13 @@ export const Card = styled.div`
 export const Cards = styled.div`
     display: flex;
     flex-direction: row; 
-    background: #333435ac;
+    background: #0f002336;
     width: 25vw;
     border-radius: 20px;
     border: 1px solid #ffffff51;
-    box-shadow: 0px 8px 10px rgba(20, 20, 20, 0.974);
+    box-shadow: 0px 5px 8px rgba(101, 101, 101, 0.974);
     transition: transform 0.4s ease, box-shadow 0.4s ease, background 0.4s ease;
+    cursor: pointer;
     
     img {
         width: 20%; 
@@ -45,7 +46,7 @@ export const Cards = styled.div`
 
     &:hover {
         transform: translateY(-10px);
-        box-shadow: 0px 12px 20px rgba(20, 20, 20, 1);
-        background: #131313c7;
+        box-shadow: 0px 12px 20px #04001b;
+        background: #04001b;
     }
 `;

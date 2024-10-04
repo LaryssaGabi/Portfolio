@@ -17,8 +17,8 @@ export const Line = styled.div`
   width: 10%;
   margin-top: 10px;
   border-radius: 5px;
-  background-color: #42a1aa;
-  box-shadow: 0 0 10px rgba(49, 162, 162, 0.6); 
+  background-color: #ffffff;
+  box-shadow: 0 0 8px rgba(49, 162, 162, 0.6); 
   transition: box-shadow 0.3s ease-in-out; 
   
   &:hover {
@@ -61,4 +61,23 @@ export const Card = styled.div`
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 32px;
   padding: 40px;
+`;
+
+export const ContainerSkil = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 50px;
+
+h2{
+
+  color: #dddddd;
+  margin-bottom: 20px;
+}
+
+img{
+  
+  width: 50vw;
+}
 `;

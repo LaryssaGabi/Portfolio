@@ -2,12 +2,12 @@
 import ContainerLeft from "../../components/ContainerLeft"
 import ContainerRight from "../../components/ContainerRight"
 import { TitlePorti } from "../../components/Title/styles"
-import { Container, ConteinerAbout, Line, ContainerParagrafo, Pragrafo, Doing, Card } from "./styles"
+import { Container, ConteinerAbout, Line, ContainerParagrafo, Pragrafo, Doing, Card, ContainerSkil } from "./styles"
 import CardAbout from "../../components/CardAbout/index"
 
 import webDevImage from '../../assets/biblioteca.png';
-import prototypingImage from '../../assets/wireframe.png'; 
-import fullStackImage from '../../assets/software-de-impressao-3d.png'; 
+import prototypingImage from '../../assets/wireframe.png';
+import fullStackImage from '../../assets/software-de-impressao-3d.png';
 import apiIntegrationImage from '../../assets/api.png';
 
 function Home() {
@@ -57,6 +57,10 @@ function Home() {
               />
             </Card>
           </Doing>
+          <ContainerSkil>
+            <h2>Minhas Skills:</h2>
+            <img src="https://skillicons.dev/icons?i=html,css,js,ts,java,react,nodejs,styledcomponents,mysql,figma,vscode,github&theme=dark" />
+          </ContainerSkil>
         </ContainerRight>
       </Container>
     </>
