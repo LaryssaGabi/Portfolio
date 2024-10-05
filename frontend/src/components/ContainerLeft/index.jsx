@@ -1,5 +1,6 @@
 import { Container, ContainInfor, Imagem, Line, Section, Span } from "./styles";
-import { Github, Linkedin, Mails, Smartphone, User } from 'lucide-react';
+import { Github, Linkedin, Mails, Smartphone } from 'lucide-react';
+import Perfil from '../../assets/perfil.jpeg'
 
 function ContainerLeft() {
   return (
@@ -7,7 +8,7 @@ function ContainerLeft() {
       <Container>
 
         <Imagem>
-          <User style={{ color: '#fff', background: 'transparent' }} size={30} />
+          <img src={Perfil} alt="" />
         </Imagem>
 
         <Section>

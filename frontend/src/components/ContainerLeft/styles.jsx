@@ -25,7 +25,14 @@ export const Imagem = styled.div`
     height: 10vh;
     width: 5vw;
     border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    
+
+    img{
+      width:40vw;
+      height: 15vh;
+      border-radius: 100px;
+      box-shadow: 0 4px 15px rgba(242, 242, 242, 0.2)
+    }
 `
 
 export const Section = styled.div`
