@@ -77,6 +77,7 @@ function Resume() {
               </CertificadoItem>
             ))}
           </ContainerCertificado>
+          
         </ContainerRight>
       </Container>
 
