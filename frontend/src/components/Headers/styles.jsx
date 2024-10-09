@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 export const Header = styled.header`
   position: absolute; 
-  top: 80; /* Faz com que o Header fique na parte superior */
-  right: 86px; /* Posiciona o Header no lado direito */
+  top: 80;
+  right: 86px; 
   display: flex;
   justify-content: space-evenly;
   align-items: center;

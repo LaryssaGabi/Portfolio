@@ -24,7 +24,7 @@ function Headers() {
             onClick={() => navigate("/project")}
             className={location.pathname === "/project" ? "active" : ""}
           >
-            Portfolio
+            Projects
           </button>
         </Header>
     </>
