@@ -4,6 +4,8 @@ import { TitlePorti } from "../../components/Title/styles";
 import Jokenpo from "../../assets/jokenpo.png"
 import Cyberpunk from "../../assets/cyberpunk.png"
 import CafeDev from "../../assets/cafeDev.png"
+import DevMovies from "../../assets/devmovies.png"
+import ToDoList from "../../assets/toDoList.png"
 import { Container, ConteinerAbout, Line, ProjectContainer, ProjectCard } from "./styles";
 
 const projects = [
@@ -24,6 +26,18 @@ const projects = [
     link: 'https://cafe-do-dev.netlify.app',
     description: 'Um site pra quem é apaixonado por café.',
     image: CafeDev,
+  },
+  {
+    title: 'DevMovies',
+    link: 'https://dev-movies-nine.vercel.app/',
+    description: 'Seu portal para filmes inesquecíveis.',
+    image: DevMovies,
+  },
+  {
+    title: 'ToDo - List',
+    link: 'https://to-do-list-umber-three-27.vercel.app/',
+    description: 'Lista  de tarefas para você se organizar.',
+    image: ToDoList,
   },
 ];
 
