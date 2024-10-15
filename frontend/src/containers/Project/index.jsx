@@ -3,6 +3,7 @@ import ContainerRight from "../../components/ContainerRight";
 import { TitlePorti } from "../../components/Title/styles";
 import Jokenpo from "../../assets/jokenpo.png"
 import Cyberpunk from "../../assets/cyberpunk.png"
+import CafeDev from "../../assets/cafeDev.png"
 import { Container, ConteinerAbout, Line, ProjectContainer, ProjectCard } from "./styles";
 
 const projects = [
@@ -17,6 +18,12 @@ const projects = [
     link: 'https://cyberpunk-2077-ciborgue.netlify.app',
     description: 'Uma aplicação relacionada ao universo de Cyberpunk 2077.',
     image: Cyberpunk,
+  },
+  {
+    title: 'Cafeteria do Dev',
+    link: 'https://cafe-do-dev.netlify.app',
+    description: 'Um site pra quem é apaixonado por café.',
+    image: CafeDev,
   },
 ];
 
