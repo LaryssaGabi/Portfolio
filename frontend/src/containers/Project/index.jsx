@@ -6,6 +6,7 @@ import Cyberpunk from "../../assets/cyberpunk.png"
 import CafeDev from "../../assets/cafeDev.png"
 import DevMovies from "../../assets/devmovies.png"
 import ToDoList from "../../assets/toDoList.png"
+import Iphone from "../../assets/iphone.png"
 import { Container, ConteinerAbout, Line, ProjectContainer, ProjectCard } from "./styles";
 
 const projects = [
@@ -39,13 +40,19 @@ const projects = [
     description: 'Lista  de tarefas para você se organizar.',
     image: ToDoList,
   },
+  {
+    title: 'AplleDev',
+    link: 'https://i-phone-aplle-dev.vercel.app/',
+    description: 'Site Apple.',
+    image: Iphone,
+  },
 ];
 
 function Project() {
   return (
     <>
+      <ContainerLeft />
       <Container>
-        <ContainerLeft />
         <ContainerRight>
           <ConteinerAbout>
             <TitlePorti>Projects</TitlePorti>

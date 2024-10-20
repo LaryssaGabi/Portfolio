@@ -7,10 +7,16 @@ export const Container = styled.div`
   height: 100vh;
   margin: 70px 80px 386px 80px;
   gap: 40px;
+
+  @media screen and (max-width: 1900px) {
+    margin:  70px 80px 65vh 80px;
+  }
+
 `;
 
 export const ConteinerAbout = styled.div`
   display: flex;
+  width: 60vw;
   background: transparent;
 `;
 
@@ -33,6 +39,10 @@ export const Title = styled.h2`
   margin-left: 20px;
   background: transparent;
   color: #fff;
+
+  @media screen and (max-width: 1900px) {
+    font-size: 1.4rem;
+  }
 `;
 
 export const ContainerEducation = styled.div`
@@ -84,7 +94,23 @@ export const ContainerCertificado = styled.div`
   justify-content: center;
   margin: 10px;
   gap: 20px;
+
+  @media screen and (max-width: 1900px) {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    margin-right: 70px;
+  }
+
+  @media screen and (max-width: 1200px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media screen and (max-width: 800px) {
+    grid-template-columns: 1fr;
+  }
 `;
+
 export const CertificadoItem = styled.div`
   display: flex;
   flex-direction: column;
@@ -106,6 +132,10 @@ export const CertificadoImage = styled.img`
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   margin-bottom: 10px;
   cursor: pointer;  
+
+  @media screen and (max-width: 1900px) {
+    width: 200px;
+  }
 `;
 
 export const Modal = styled.div`

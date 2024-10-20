@@ -42,8 +42,8 @@ function Resume() {
 
   return (
     <>
+      <ContainerLeft />
       <Container>
-        <ContainerLeft />
         <ContainerRight>
           <ConteinerAbout>
             <TitlePorti>Resume</TitlePorti>
@@ -77,7 +77,7 @@ function Resume() {
               </CertificadoItem>
             ))}
           </ContainerCertificado>
-          
+
         </ContainerRight>
       </Container>
 

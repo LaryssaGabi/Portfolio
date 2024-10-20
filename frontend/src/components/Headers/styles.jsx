@@ -13,6 +13,10 @@ export const Header = styled.header`
   width: 25vw;
   height: 6vh;
 
+  @media screen and (max-width: 1900px) {
+    right: 73px; 
+  }
+
   button {
     background: transparent;
     border: none;

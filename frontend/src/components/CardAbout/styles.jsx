@@ -17,7 +17,7 @@ export const Cards = styled.div`
     box-shadow: 0px 5px 8px rgba(101, 101, 101, 0.974);
     transition: transform 0.4s ease, box-shadow 0.4s ease, background 0.4s ease;
     cursor: pointer;
-    
+
     img {
         width: 20%; 
         height: 50%; 
@@ -37,11 +37,21 @@ export const Cards = styled.div`
         font-size: 1.1rem;
         margin-bottom: 10px;
         background: transparent;
+
+        @media screen and (max-width: 1900px) {
+            font-size: 1rem;
+        }
     }
 
     p {
         font-size: 0.9rem;
         background: transparent;
+        
+
+        @media screen and (max-width: 1900px) {
+            font-size: 0.7rem;
+            padding-right: 8px;
+        }
     }
 
     &:hover {

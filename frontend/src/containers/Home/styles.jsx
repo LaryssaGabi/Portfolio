@@ -7,6 +7,10 @@ export const Container = styled.div`
     height: 100vh;
     margin: 87px 80px 42px 80px;
     gap: 40px;
+
+    @media screen and (max-width: 1900px) {
+    margin: 21.5vh  80px 16vh 80px;
+  }
 `
 export const ConteinerAbout = styled.div`
     display:flex;
@@ -38,8 +42,12 @@ export const Pragrafo = styled.p`
   background: transparent;
   color: #c3baba;
   margin-bottom: 20px;
-  font-size: 16px;
+  font-size: 1rem;
   padding: 0 20px;
+
+  @media screen and (max-width: 1900px) {
+    font-size: 0.9rem;
+  }
   `;
 
 export const Doing = styled.div`
@@ -50,7 +58,10 @@ export const Doing = styled.div`
     background: transparent;
     color: #dddddd;
     font-weight: 700;
-  
+
+    @media screen and (max-width: 1900px) {
+        font-size: 1.4rem;
+    }
   }
 `;
 
@@ -60,6 +71,8 @@ export const Card = styled.div`
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 32px;
   padding: 40px;
+
+
 `;
 
 export const ContainerSkil = styled.div`

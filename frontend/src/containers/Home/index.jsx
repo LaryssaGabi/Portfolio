@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
 import ContainerLeft from "../../components/ContainerLeft"
 import ContainerRight from "../../components/ContainerRight"
 import { TitlePorti } from "../../components/Title/styles"
@@ -14,8 +13,9 @@ function Home() {
 
   return (
     <>
+      <ContainerLeft />
+      
       <Container>
-        <ContainerLeft />
         <ContainerRight>
           <ConteinerAbout>
             <TitlePorti>Sobre Mim</TitlePorti>

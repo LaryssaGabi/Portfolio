@@ -7,10 +7,13 @@ export const Container = styled.div`
     height: 100vh;
     margin: 70px 80px 28px 80px;
     gap: 40px;
+
+    @media screen and (max-width: 1900px) {
+    margin: 14vh  80px 8vh 80px;
+  }
 `
 export const ConteinerAbout = styled.div`
-    display:flex;
-    background: transparent;
+    display:flex;    
 `
 export const Line = styled.div`
   height: 5px;
@@ -28,9 +31,15 @@ export const Line = styled.div`
 
 export const ProjectContainer = styled.div`
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 20px;
   padding: 50px 30px;
+
+  @media screen and (max-width: 1900px) {
+    width: 60vw;
+    padding-right: 90px;
+  }
 `;
 
 export const ProjectCard = styled.div`
@@ -41,6 +50,10 @@ export const ProjectCard = styled.div`
   overflow: hidden; 
   transition: transform 0.2s; 
   transition: transform 0.3s ease, background-color 0.3s ease;
+
+  @media screen and (max-width: 1900px) {
+    width: 250px;
+  }
 
   &:hover {
     transform: scale(1.05); 

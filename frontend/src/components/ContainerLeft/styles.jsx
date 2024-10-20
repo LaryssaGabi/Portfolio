@@ -13,6 +13,10 @@ export const Container = styled.div`
     border-radius: 30px;
     box-shadow: 0px 0px 22px rgba(189, 189, 189, 0.5); 
     background: rgba(51, 51, 51, 0.342);
+
+    @media screen and (max-width: 1900px) {
+
+  }
 `
 
 
@@ -63,6 +67,10 @@ export const Section = styled.div`
         border-radius: 5px;
         background-color: #3434347a;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+
+        @media screen and (max-width: 1900px) {
+          font-size: 0.7rem;
+        }
     }
 `
 export const Line = styled.div`
@@ -83,7 +91,6 @@ export const ContainInfor = styled.div`
   color: #fff;
   background: transparent; 
 
-
   div {
     display: flex;
     gap: 10px;
@@ -102,7 +109,6 @@ export const ContainInfor = styled.div`
     border: #ffffff16 solid 1px;
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-
 
     &:hover {
       transform: scale(1.1);
@@ -127,6 +133,11 @@ export const Span = styled.div`
     color: #afafaf;
     background: transparent;
     margin-bottom: 5px;
+
+    @media screen and (max-width: 1900px) {
+      font-size: 12px;
+    }
+
   }
 
   label {
