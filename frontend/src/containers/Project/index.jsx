@@ -7,6 +7,7 @@ import CafeDev from "../../assets/cafeDev.png"
 import DevMovies from "../../assets/devmovies.png"
 import ToDoList from "../../assets/toDoList.png"
 import Iphone from "../../assets/iphone.png"
+import Starbucks from "../../assets/starbucks.png"
 import { Container, ConteinerAbout, Line, ProjectContainer, ProjectCard } from "./styles";
 
 const projects = [
@@ -45,6 +46,12 @@ const projects = [
     link: 'https://i-phone-aplle-dev.vercel.app/',
     description: 'Site Apple.',
     image: Iphone,
+  },
+  {
+    title: 'Starbucks',
+    link: 'https://star-bucks-dev.vercel.app/',
+    description: 'Starbucks na sua tela.',
+    image: Starbucks,
   },
 ];
 
