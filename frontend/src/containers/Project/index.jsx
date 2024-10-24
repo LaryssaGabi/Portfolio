@@ -8,6 +8,8 @@ import DevMovies from "../../assets/devmovies.png"
 import ToDoList from "../../assets/toDoList.png"
 import Iphone from "../../assets/iphone.png"
 import Starbucks from "../../assets/starbucks.png"
+import Flappy from "../../assets/flappy.png"
+import Itau from "../../assets/itau.png"
 import { Container, ConteinerAbout, Line, ProjectContainer, ProjectCard } from "./styles";
 
 const projects = [
@@ -52,6 +54,18 @@ const projects = [
     link: 'https://star-bucks-dev.vercel.app/',
     description: 'Starbucks na sua tela.',
     image: Starbucks,
+  },
+  {
+    title: 'Itau',
+    link: 'https://banco-itau-dev.vercel.app/',
+    description: 'Seu banco na palma da mão.',
+    image: Itau,
+  },
+  {
+    title: 'FlappyDev',
+    link: 'https://flappy-dev.vercel.app/',
+    description: 'Rumo à diversão sem limites!',
+    image: Flappy,
   },
 ];
 
