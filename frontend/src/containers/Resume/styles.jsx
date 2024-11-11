@@ -5,11 +5,11 @@ export const Container = styled.div`
   justify-content: center;
   align-items: flex-start;
   height: 100vh;
-  margin: 70px 80px 386px 80px;
+  margin: 70px 80px 45vh 80px;
   gap: 40px;
 
   @media screen and (max-width: 1900px) {
-    margin:  70px 80px 65vh 80px;
+    margin:  70px 80px 72.5vh 80px;
   }
 
 `;
@@ -20,6 +20,8 @@ export const ConteinerAbout = styled.div`
   background: transparent;
 `;
 
+
+
 export const Line = styled.div`
   height: 5px;
   width: 10%;
@@ -28,10 +30,16 @@ export const Line = styled.div`
   background-color: #ffffff;
   box-shadow: 0 0 8px rgba(49, 162, 162, 0.6); 
   transition: box-shadow 0.3s ease-in-out; 
+
   
   &:hover {
     box-shadow: 0 0 15px rgba(49, 162, 162, 1); 
   }
+`;
+
+export const Curriculo = styled.a`
+ margin-top: 20px;
+width: 12vw;
 `;
 
 export const Title = styled.h2`

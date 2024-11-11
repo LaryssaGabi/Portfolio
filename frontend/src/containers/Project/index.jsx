@@ -10,14 +10,30 @@ import Iphone from "../../assets/iphone.png"
 import Starbucks from "../../assets/starbucks.png"
 import Flappy from "../../assets/flappy.png"
 import Itau from "../../assets/itau.png"
+import DevBills from "../../assets/devbills.png"
+import DevBurguer from "../../assets/devBurguer.png"
+import Translation from "../../assets/translation.png"
+
 import { Container, ConteinerAbout, Line, ProjectContainer, ProjectCard } from "./styles";
 
 const projects = [
   {
-    title: 'Mestre do Jokenpo',
-    link: 'https://mestre-do-jokenpo.netlify.app',
-    description: 'Uma versão divertida do jogo Jokenpo (Pedra, Papel e Tesoura).',
-    image: Jokenpo,
+    title: 'DevMovies',
+    link: 'https://dev-movies-nine.vercel.app/',
+    description: 'Seu portal para filmes inesquecíveis.',
+    image: DevMovies,
+  },
+  {
+    title: 'DevBills',
+    link: 'https://dev-bills-interface.vercel.app/',
+    description: 'Simplificando o controle financeiro com praticidade e inovação!',
+    image: DevBills,
+  },
+  {
+    title: 'DevBurguer',
+    link: 'https://dev-burguer-web.vercel.app',
+    description: 'O cardápio dos seus favoritos, sempre ao seu alcance!',
+    image: DevBurguer,
   },
   {
     title: 'Cyberpunk 2077 Ciborgue',
@@ -32,10 +48,22 @@ const projects = [
     image: CafeDev,
   },
   {
-    title: 'DevMovies',
-    link: 'https://dev-movies-nine.vercel.app/',
-    description: 'Seu portal para filmes inesquecíveis.',
-    image: DevMovies,
+    title: 'FlappyDev',
+    link: 'https://flappy-dev.vercel.app/',
+    description: 'Rumo à diversão sem limites!',
+    image: Flappy,
+  },
+  {
+    title: 'Tranlation',
+    link: 'https://translation-dev.vercel.app/',
+    description: 'Simplificando a comunicação sem barreiras, uma palavra de cada vez!',
+    image: Translation,
+  },
+  {
+    title: 'Mestre do Jokenpo',
+    link: 'https://mestre-do-jokenpo.netlify.app',
+    description: 'Uma versão divertida do jogo Jokenpo (Pedra, Papel e Tesoura).',
+    image: Jokenpo,
   },
   {
     title: 'ToDo - List',
@@ -60,12 +88,6 @@ const projects = [
     link: 'https://banco-itau-dev.vercel.app/',
     description: 'Seu banco na palma da mão.',
     image: Itau,
-  },
-  {
-    title: 'FlappyDev',
-    link: 'https://flappy-dev.vercel.app/',
-    description: 'Rumo à diversão sem limites!',
-    image: Flappy,
   },
 ];
 

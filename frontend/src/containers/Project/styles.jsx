@@ -5,11 +5,11 @@ export const Container = styled.div`
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 13vh 80px 9vh 80px;
+    margin: 58vh 80px 54vh 80px;
     gap: 40px;
 
     @media screen and (max-width: 1900px) {
-    margin: 32vh  80px 27vh 80px;
+    margin: 89vh 80px 84vh 80px;
   }
 `
 export const ConteinerAbout = styled.div`
@@ -44,7 +44,7 @@ export const ProjectContainer = styled.div`
 
 export const ProjectCard = styled.div`
   cursor: pointer; 
-  width: 300px; 
+  width: 480px; 
   border: 1px solid #1d1c1c; 
   border-radius: 8px;
   overflow: hidden; 
@@ -52,7 +52,7 @@ export const ProjectCard = styled.div`
   transition: transform 0.3s ease, background-color 0.3s ease;
 
   @media screen and (max-width: 1900px) {
-    width: 250px;
+    width: 390px;
   }
 
   &:hover {

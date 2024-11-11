@@ -4,11 +4,13 @@ import ContainerRight from "../../components/ContainerRight";
 import Education from "../../components/Education";
 import Experiencia from "../../components/Experiencia";
 import { TitlePorti } from "../../components/Title/styles";
-import { Container, ConteinerAbout, Line, Title, ContainerEducation, ContainerExperiencia, TimelineItem, ContainerCertificado, CertificadoItem, CertificadoImage, Modal, ModalContent, CloseButton } from "./styles";
+import { Container, ConteinerAbout, Line, Curriculo, Title, ContainerEducation, ContainerExperiencia, TimelineItem, ContainerCertificado, CertificadoItem, CertificadoImage, Modal, ModalContent, CloseButton } from "./styles";
 
 import pythonCertificate from "../../assets/certificates/python.jpg";
 import typescriptCertificate from "../../assets/certificates/typerScript.png";
 import fullstackCertificate from "../../assets/certificates/figma.jpg";
+import curriculoPDF from "../../assets/curriculo/curriculo.pdf";
+import Button from "../../components/Button";
 
 function Resume() {
   const [selectedImage, setSelectedImage] = useState(null);
@@ -49,6 +51,11 @@ function Resume() {
             <TitlePorti>Resume</TitlePorti>
           </ConteinerAbout>
           <Line />
+
+          <Curriculo href={curriculoPDF} download="Curriculo_Laryssa.pdf">
+            <Button />
+          </Curriculo>
+
           <Title>Educação</Title>
 
           <ContainerEducation>
