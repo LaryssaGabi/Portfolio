@@ -13,6 +13,7 @@ import Itau from "../../assets/itau.png"
 import DevBills from "../../assets/devbills.png"
 import DevBurguer from "../../assets/devBurguer.png"
 import Translation from "../../assets/translation.png"
+import Tweet from "../../assets/tweet.png"
 
 import { Container, ConteinerAbout, Line, ProjectContainer, ProjectCard } from "./styles";
 
@@ -58,6 +59,12 @@ const projects = [
     link: 'https://translation-dev.vercel.app/',
     description: 'Simplificando a comunicação sem barreiras, uma palavra de cada vez!',
     image: Translation,
+  },
+  {
+    title: 'Tweet-Clone',
+    link: 'https://tweet-gray.vercel.app/',
+    description: 'Tweet na sua tela!',
+    image: Tweet,
   },
   {
     title: 'Mestre do Jokenpo',

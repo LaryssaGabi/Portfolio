@@ -5,11 +5,11 @@ export const Container = styled.div`
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 58vh 80px 54vh 80px;
+    margin: 73vh 80px 68vh 80px;
     gap: 40px;
 
     @media screen and (max-width: 1900px) {
-    margin: 89vh 80px 84vh 80px;
+    margin: 109vh 80px 104vh 80px;
   }
 `
 export const ConteinerAbout = styled.div`
