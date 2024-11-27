@@ -5,11 +5,21 @@ export const Container = styled.div`
   justify-content: center;
   align-items: flex-start;
   height: 100vh;
-  margin: 70px 80px 45vh 80px;
+  margin: 7vh 0.1vw 50vh;
   gap: 40px;
 
   @media screen and (max-width: 1900px) {
-    margin:  70px 80px 72.5vh 80px;
+      margin: 8vh 4vw;
+      height: 100%;
+  }
+
+  @media screen and (max-width: 1800px) {
+    margin: 8vh 4vw;
+    flex-direction: column; 
+  }
+
+  @media screen and (max-width: 552px) {
+    gap: 20px; 
   }
 
 `;

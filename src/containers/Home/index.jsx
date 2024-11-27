@@ -14,7 +14,7 @@ function Home() {
   return (
     <>
       <ContainerLeft />
-      
+
       <Container>
         <ContainerRight>
           <ConteinerAbout>

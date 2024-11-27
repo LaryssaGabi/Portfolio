@@ -6,10 +6,10 @@ function ContainerRight({ children }) {
   return (
     <>
       <Container>
+        <Headers />
         <Content>
           {children}
         </Content>
-        <Headers />
       </Container>
     </>
   );

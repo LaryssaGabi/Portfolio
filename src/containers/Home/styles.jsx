@@ -5,12 +5,23 @@ export const Container = styled.div`
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 87px 80px 42px 80px;
+    margin: 9vh 0.1vw;
     gap: 40px;
 
     @media screen and (max-width: 1900px) {
-    margin: 21.5vh  80px 16vh 80px;
+      margin: 8vh 4vw;
+      height: 100%;
   }
+
+  @media screen and (max-width: 1800px) {
+    margin: 8vh 4vw;
+    flex-direction: column; 
+  }
+
+  @media screen and (max-width: 552px) {
+    gap: 20px; 
+  }
+
 `
 export const ConteinerAbout = styled.div`
     display:flex;
