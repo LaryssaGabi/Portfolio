@@ -9,6 +9,8 @@ import { Container, ConteinerAbout, Line, Curriculo, Title, ContainerEducation, 
 import pythonCertificate from "../../assets/certificates/python.jpg";
 import typescriptCertificate from "../../assets/certificates/typerScript.png";
 import fullstackCertificate from "../../assets/certificates/figma.jpg";
+import mec from "../../assets/certificates/mec.png";
+import Rocketseat from "../../assets/certificates/rocketseat.png";
 import curriculoPDF from "../../assets/curriculo/curriculo.pdf";
 import Button from "../../components/Button";
 
@@ -31,7 +33,10 @@ function Resume() {
   const certificatesData = [
     { title: "Certificação em Python", image: pythonCertificate },
     { title: "Certificação em TypeScript", image: typescriptCertificate },
-    { title: "Certificação em Ui Design", image: fullstackCertificate }
+    { title: "Certificação em Ui Design", image: fullstackCertificate },
+    { title: "Certificação Rocketseat - Java ", image: Rocketseat },
+    { title: "DevClub", image: mec },
+
   ];
 
   const openModal = (image) => {

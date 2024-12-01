@@ -108,16 +108,14 @@ export const TimelineItem = styled.div`
 `;
 
 export const ContainerCertificado = styled.div`
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
   justify-content: center;
   margin: 10px;
-  gap: 20px;
 
   @media screen and (max-width: 1900px) {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-items: center;
-    margin-right: 70px;
+    grid-template-columns: repeat(3, 1fr); 
   }
 
   @media screen and (max-width: 1200px) {
@@ -125,7 +123,7 @@ export const ContainerCertificado = styled.div`
   }
 
   @media screen and (max-width: 800px) {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr; 
   }
 `;
 

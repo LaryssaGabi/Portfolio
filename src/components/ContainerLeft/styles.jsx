@@ -41,10 +41,9 @@ export const Imagem = styled.div`
   justify-content: center;
   align-items: center;
   margin: 60px 0 40px 0;
-  background-color: #343434;
   height: 10vh;
   width: 5vw;
-  border-radius: 15px;
+  
 
   img {
     width: 100%;
