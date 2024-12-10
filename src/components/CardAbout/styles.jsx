@@ -18,11 +18,18 @@ export const Cards = styled.div`
   transition: transform 0.4s ease, box-shadow 0.4s ease, background 0.4s ease;
   cursor: pointer;
 
+  @media screen and (max-width: 980px) {
+      font-size: 0.57rem;
+      padding-right: 5px;
+      width: 45vw;
+    }
+
   img {
     width: 20%; 
     height: 50%; 
     margin: 40px;
     background: transparent;
+
   }
 
   .content {
@@ -41,8 +48,11 @@ export const Cards = styled.div`
     @media screen and (max-width: 1900px) {
       font-size: 1rem;
     }
-    @media screen and (max-width: 1400px) {
-      font-size: 0.2rem;
+    @media screen and (max-width: 1250px) {
+      font-size: 0.8rem;
+    }
+    @media screen and (max-width: 980px) {
+      font-size: 0.8rem;
     }
   }
 
@@ -54,27 +64,41 @@ export const Cards = styled.div`
       font-size: 0.7rem;
       padding-right: 8px;
     }
+
+    @media screen and (max-width: 1250px) {
+      font-size: 0.6rem;
+      padding-right: 5px;
+    }
+
+    @media screen and (max-width: 980px) {
+      font-size: 0.7rem;
+      padding-right: 5px;
+    }
+
   }
 
   &:hover {
-    transform: translateY(-10px);
+    transform: translateY(-5px);
     box-shadow: 0px 12px 20px #04001b;
     background: #04001b;
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 770px) {
     flex-direction: column;
     align-items: center;
-    width: 90%;
+    width: 65%;
+
     img {
-      width: 50%;
+      width: 40%;
       height: auto;
       margin: 20px 0;
+    
     }
-
+    
     .content {
       width: 100%;
       text-align: center;
+      padding: 0 0 5px 5px;
     }
   }
 `;

@@ -9,4 +9,10 @@ export const TitlePorti = styled.h1`
     @media screen and (max-width: 1900px) {
         font-size: 1.8rem;
     }
+    @media screen and (max-width: 1250px) {
+        font-size: 1.4rem;
+    }
+    @media screen and (max-width: 770px) {
+        font-size: 1.2rem;
+    }
 `

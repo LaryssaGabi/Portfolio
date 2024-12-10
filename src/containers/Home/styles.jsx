@@ -47,6 +47,7 @@ export const ContainerParagrafo = styled.div`
   flex-direction: column;
   background: transparent;
   padding: 0 20px;
+  width: 50vw;
 `;
 
 export const Pragrafo = styled.p`
@@ -59,6 +60,17 @@ export const Pragrafo = styled.p`
   @media screen and (max-width: 1900px) {
     font-size: 0.9rem;
   }
+
+  @media screen and (max-width: 1250px) {
+    font-size: 0.8rem;
+    width: 50vw;
+  }
+
+  @media screen and (max-width: 770px) {
+      padding-right: 5px;
+      font-size: 0.75rem;
+      width: 46vw;
+    }
   `;
 
 export const Doing = styled.div`
@@ -73,6 +85,12 @@ export const Doing = styled.div`
     @media screen and (max-width: 1900px) {
         font-size: 1.4rem;
     }
+    @media screen and (max-width: 1250px) {
+        font-size: 1.4rem;
+    }
+    @media screen and (max-width: 770px) {
+        font-size: 1.1rem;
+    }
   }
 `;
 
@@ -83,6 +101,29 @@ export const Card = styled.div`
   grid-gap: 32px;
   padding: 40px;
 
+  @media screen and (max-width: 1250px) {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+    padding: 20px;
+  }
+
+  @media screen and (max-width: 1080px) {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+    padding: 10px;
+  }
+
+  @media screen and (max-width: 980px) {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 15px;
+    padding: 10px;
+  }
+
+  @media screen and (max-width: 780px) {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 15px;
+    padding: 8px;
+  }
 
 `;
 
@@ -93,14 +134,52 @@ export const ContainerSkil = styled.div`
   gap: 20px;
   margin-bottom: 50px;
 
-h2{
+  h2 {
+    color: #dddddd;
+    margin-bottom: 20px;
 
-  color: #dddddd;
-  margin-bottom: 20px;
+    @media screen and (max-width: 1900px) {
+      font-size: 1.8rem;
+    }
+    @media screen and (max-width: 1250px) {
+      margin-top: 20px;
+      font-size: 1.4rem;
+    }
+    @media screen and (max-width: 770px) {
+      font-size: 1.2rem;
+    }
+  }
+
+  .skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  width: 90%;
+
+  @media screen and (max-width: 1250px) {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+  }
+
+  @media screen and (max-width: 770px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
-img{
-  
-  width: 50vw;
-}
+  img {
+    width: 60px;
+    height: 60px;
+
+    @media screen and (max-width: 1900px) {
+      width: 50px;
+      height: 50px;
+    }
+    @media screen and (max-width: 770px) {
+      width: 40px;
+      height: 40px;
+    }
+  }
 `;

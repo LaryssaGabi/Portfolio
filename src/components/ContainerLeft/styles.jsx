@@ -40,27 +40,22 @@ export const Imagem = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 60px 0 40px 0;
-  height: 10vh;
-  width: 5vw;
-  
+  margin: 60px 0 20px 0;
+  height: 14vh;
+  width: 8vw;
 
   img {
     width: 100%;
     height: auto;
     border-radius: 100px;
     box-shadow: 0 4px 15px rgba(242, 242, 242, 0.2);
-  }
+    }
 
-  @media screen and (max-width: 768px) {
-    height: 8vh;
-    width: 20vw;
-  }
-
-  @media screen and (max-width: 480px) {
-    height: 6vh;
-    width: 50vw;
-  }
+    @media screen and (max-width: 1900px) {
+      height: 15vh;
+      width: 8vw;
+    }
+    
 `;
 
 export const Section = styled.div`
@@ -78,7 +73,11 @@ export const Section = styled.div`
     margin-bottom: 20px;
     font-size: 1.5rem;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 1900px) {
+      font-size: 1.2rem;
+    }
+
+    @media screen and (max-width: 1200px) {
       font-size: 1.2rem;
     }
 
@@ -100,6 +99,11 @@ export const Section = styled.div`
     border-radius: 5px;
     background-color: #3434347a;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+    @media screen and (max-width: 1900px) {
+      font-size: 0.8rem;
+      width: 12vw;
+    }
 
     @media screen and (max-width: 768px) {
       width: 50%;
@@ -127,8 +131,17 @@ export const Line = styled.div`
     width: 90%;
   }
 `;
-export const Span = styled.div`
 
+export const Span = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1rem;
+
+  @media screen and (max-width: 1900px) {
+      font-size: 0.8rem;
+      width: 12vw;
+    }
 `;
 
 export const ContainInfor = styled.div`
@@ -137,6 +150,8 @@ export const ContainInfor = styled.div`
   gap: 35px;
   color: #fff;
   background: transparent;
+
+
 
   div {
     display: flex;
@@ -165,6 +180,11 @@ export const ContainInfor = styled.div`
     &:active {
       box-shadow: 0 4px 8px rgba(252, 252, 252, 0.2);
       background-color: #6a69692c;
+    }
+
+    @media screen and (max-width: 1900px) {
+      width: 3vw;
+      height: 5vh;
     }
 
     @media screen and (max-width: 768px) {

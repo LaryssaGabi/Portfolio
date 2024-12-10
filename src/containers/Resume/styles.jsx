@@ -5,17 +5,12 @@ export const Container = styled.div`
   justify-content: center;
   align-items: flex-start;
   height: 100vh;
-  margin: 7vh 0.1vw 50vh;
+  margin: 7vh 0.1vw 90vh;
   gap: 40px;
 
   @media screen and (max-width: 1900px) {
       margin: 8vh 4vw;
       height: 100%;
-  }
-
-  @media screen and (max-width: 1800px) {
-    margin: 8vh 4vw;
-    flex-direction: column; 
   }
 
   @media screen and (max-width: 552px) {
@@ -178,12 +173,19 @@ export const ModalContent = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 
   img {
-    max-width: 80%;
+    max-width: 90%;
     max-height: 100%;
     border-radius: 10px;
   }
+
+  @media screen and (max-width: 1900px) {
+    max-width: 40%;
+    max-height: 100%;
+  }
+
 `;
 
 export const CloseButton = styled.span`

@@ -33,7 +33,7 @@ function Home() {
             </Pragrafo>
           </ContainerParagrafo>
           <Doing>
-            <h2>O que eu faço:</h2>
+            <h2>O que eu faço :</h2>
             <Card>
               <CardAbout
                 title="Web Development"
@@ -59,8 +59,20 @@ function Home() {
           </Doing>
           <ContainerSkil>
             <h2>Minhas Skills:</h2>
-            <img src="https://skillicons.dev/icons?i=html,css,js,ts,java,react,nodejs,styledcomponents,mysql,figma,vscode,github&theme=dark" />
-          </ContainerSkil>
+            <div className="skills-grid">
+              <img src="https://skillicons.dev/icons?i=html" alt="HTML" />
+              <img src="https://skillicons.dev/icons?i=css" alt="CSS" />
+              <img src="https://skillicons.dev/icons?i=js" alt="JavaScript" />
+              <img src="https://skillicons.dev/icons?i=ts" alt="TypeScript" />
+              <img src="https://skillicons.dev/icons?i=java" alt="Java" />
+              <img src="https://skillicons.dev/icons?i=react" alt="React" />
+              <img src="https://skillicons.dev/icons?i=nodejs" alt="Node.js" />
+              <img src="https://skillicons.dev/icons?i=styledcomponents" alt="Styled Components" />
+              <img src="https://skillicons.dev/icons?i=mysql" alt="MySQL" />
+              <img src="https://skillicons.dev/icons?i=figma" alt="Figma" />
+              <img src="https://skillicons.dev/icons?i=vscode" alt="VS Code" />
+              <img src="https://skillicons.dev/icons?i=github" alt="GitHub" />
+            </div>          </ContainerSkil>
         </ContainerRight>
       </Container>
     </>
