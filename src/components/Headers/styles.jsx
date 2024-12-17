@@ -17,6 +17,12 @@ export const Header = styled.header`
     right: 73px; 
   }
 
+  @media screen and (max-width: 1200px) {
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+  }
+
   button {
     background: transparent;
     border: none;

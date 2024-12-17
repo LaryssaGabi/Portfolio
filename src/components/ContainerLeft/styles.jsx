@@ -18,22 +18,6 @@ export const Container = styled.div`
     width: 30vw;
     left: 20px;
   }
-
-  @media screen and (max-width: 768px) {
-    width: 40vw;
-    height: calc(100vh - 80px);
-    top: 50px;
-    left: 10px;
-    border-radius: 20px;
-  }
-
-  @media screen and (max-width: 480px) {
-    width: 90vw;
-    height: calc(100vh - 50px);
-    top: 20px;
-    left: 5px;
-    border-radius: 15px;
-  }
 `;
 
 export const Imagem = styled.div`
@@ -132,6 +116,15 @@ export const Line = styled.div`
   }
 `;
 
+export const ContainerDiv = styled.div`
+  display: flex;
+  align-items: center;
+  
+  @media screen and (max-width: 900px) {
+    flex-direction: column;
+  }
+`;
+
 export const Span = styled.div`
   display: flex;
   flex-direction: column;
@@ -141,6 +134,12 @@ export const Span = styled.div`
   @media screen and (max-width: 1900px) {
       font-size: 0.8rem;
       width: 12vw;
+    }
+
+    span,label{
+      @media screen and (max-width: 900px) {
+        display: none; 
+      }
     }
 `;
 
@@ -187,10 +186,11 @@ export const ContainInfor = styled.div`
       height: 5vh;
     }
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 900px) {
       width: 6vw;
       height: 5vh;
     }
+
 
     @media screen and (max-width: 480px) {
       width: 10vw;

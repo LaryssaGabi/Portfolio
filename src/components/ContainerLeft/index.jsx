@@ -1,4 +1,4 @@
-import { Container, ContainInfor, Imagem, Line, Section, Span } from "./styles";
+import { Container, ContainerDiv, ContainInfor, Imagem, Line, Section, Span } from "./styles";
 import { Github, Linkedin, Mails, Smartphone } from 'lucide-react';
 import Perfil from '../../assets/perfil.jpeg'
 
@@ -20,7 +20,7 @@ function ContainerLeft() {
 
         <ContainInfor>
 
-          <div>
+          <ContainerDiv>
             <a href="mailto:lary.gabriela85@gmail.com" target="_blank" rel="noopener noreferrer">
               <Mails style={{ color: '#42a1aa', background: 'transparent' }} size={30} />
             </a>
@@ -28,9 +28,9 @@ function ContainerLeft() {
               <span>Email</span>
               <label>lary.gabriela85@gmail.com</label>
             </Span>
-          </div>
+          </ContainerDiv>
 
-          <div>
+          <ContainerDiv>
             <a href="tel:+5531971026619">
               <Smartphone style={{ color: '#42a1aa', background: 'transparent' }} size={30} />
             </a>
@@ -38,9 +38,9 @@ function ContainerLeft() {
               <span>Telefone</span>
               <label>+55 31 97102-6619</label>
             </Span>
-          </div>
+          </ContainerDiv>
 
-          <div>
+          <ContainerDiv>
             <a href="https://www.linkedin.com/in/laryssa-gabriela-alves/" target="_blank" rel="noopener noreferrer">
               <Linkedin style={{ color: '#42a1aa', background: 'transparent' }} size={30} />
             </a>
@@ -48,9 +48,9 @@ function ContainerLeft() {
               <span>LinkedIn</span>
               <label>laryssa-gabriela-alves</label>
             </Span>
-          </div>
+          </ContainerDiv>
 
-          <div>
+          <ContainerDiv>
             <a href="https://github.com/LaryssaGabi" target="_blank" rel="noopener noreferrer">
               <Github style={{ color: '#42a1aa', background: 'transparent' }} size={30} />
             </a>
@@ -58,7 +58,7 @@ function ContainerLeft() {
               <span>GitHub</span>
               <label>LaryssaGabi</label>
             </Span>
-          </div>
+          </ContainerDiv>
 
         </ContainInfor>
       </Container>
