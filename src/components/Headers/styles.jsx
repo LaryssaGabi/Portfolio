@@ -13,14 +13,17 @@ export const Header = styled.header`
   width: 25vw;
   height: 6vh;
 
+
   @media screen and (max-width: 1900px) {
-    right: 73px; 
+    right: 4.9%; 
     top: 60px;
+    width: 35%;
   }
 
-  @media screen and (max-width: 1200px) {
+  @media screen and (max-width: 1500px) {
     display: flex;
     align-items: center;
+    right: 10%; 
   }
 
   @media screen and (max-width: 800px) {
@@ -34,8 +37,14 @@ export const Header = styled.header`
     justify-content: center;
     align-items: center;
     justify-content: space-evenly;
+
   }
 
+  @media screen and (max-width: 1900px) and (resolution: 96dpi) {
+  /* Estilos para escala de 100% */
+   top: 8%;  
+  }
+  
   @media screen and (max-width: 800px) and (resolution: 96dpi) {
   /* Estilos para escala de 100% */
   border-top-left-radius: 30px;
@@ -49,7 +58,9 @@ export const Header = styled.header`
   align-items: center;
 }
 
-  @media screen and (max-width: 480px) {
+
+
+@media screen and (max-width: 480px) {
     top: 67.2%;
   }
   

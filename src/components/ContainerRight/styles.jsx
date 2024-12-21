@@ -20,6 +20,11 @@ export const Container = styled.div`
     align-items: center;
   }
 
+  @media screen and (max-width: 1900px) and (resolution: 96dpi) {
+    position: static; 
+    
+}
+
 `;
 
 export const Content = styled.div`
