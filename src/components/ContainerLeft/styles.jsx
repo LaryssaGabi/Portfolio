@@ -113,10 +113,6 @@ export const Section = styled.div`
       font-size: 12px;
     }
 
-    @media screen and (max-width: 480px) {
-      width: 80%;
-      font-size: 10px;
-    }
   }
 `;
 
