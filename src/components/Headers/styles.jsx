@@ -50,7 +50,7 @@ export const Header = styled.header`
 }
 
   @media screen and (max-width: 480px) {
-    top: 63%;
+    top: 59%;
   }
   
 
