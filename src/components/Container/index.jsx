@@ -22,8 +22,8 @@ const MainContainer = styled.div`
   min-height: 100vh;
   background-color: #f5f5f5;
 
-  @media screen and (max-width: 1024px) {
-    flex-direction: column; 
+  @media screen and (max-width: 800px) {
+    flex-direction: column;
     align-items: center;
   }
 `;

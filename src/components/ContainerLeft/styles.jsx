@@ -18,6 +18,15 @@ export const Container = styled.div`
     width: 30vw;
     left: 20px;
   }
+    @media screen and (max-width: 800px) {
+      position: static; 
+      width: 90%;    
+      margin: 0 auto;   
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 40px;
+  }
 `;
 
 export const Imagem = styled.div`
@@ -33,13 +42,18 @@ export const Imagem = styled.div`
     height: auto;
     border-radius: 100px;
     box-shadow: 0 4px 15px rgba(242, 242, 242, 0.2);
-    }
+  }
 
     @media screen and (max-width: 1900px) {
       height: 15vh;
       width: 8vw;
     }
-    
+    @media screen and (max-width: 800px) {
+      height: 15vh;
+      width: 15vw;
+      margin: 10px 0 20px 0;
+    }
+
 `;
 
 export const Section = styled.div`
@@ -89,8 +103,13 @@ export const Section = styled.div`
       width: 12vw;
     }
 
-    @media screen and (max-width: 768px) {
-      width: 50%;
+    @media screen and (max-width: 900px) {
+      width: 42%;
+      font-size: 12px;
+    }
+
+    @media screen and (max-width: 800px) {
+      width: 25%;
       font-size: 12px;
     }
 
@@ -111,9 +130,7 @@ export const Line = styled.div`
   margin: 10px 0px 35px;
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
 
-  @media screen and (max-width: 768px) {
-    width: 90%;
-  }
+
 `;
 
 export const ContainerDiv = styled.div`

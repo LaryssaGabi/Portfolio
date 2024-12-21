@@ -11,6 +11,15 @@ export const Container = styled.div`
   background: rgba(51, 51, 51, 0.342);
   box-shadow: 0px 0px 22px rgba(189, 189, 189, 0.5);
 
+  @media screen and (max-width: 800px) {
+    position: static; 
+    width: 100%;       
+    margin: 0 auto;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
 `;
 
 export const Content = styled.div`
