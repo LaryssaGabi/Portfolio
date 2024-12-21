@@ -19,7 +19,7 @@ function Resume() {
 
   const educationData = [
     { year: "2021", school: "Escola Elizabeth Kalil", description: "Ensino médio completo." },
-    { year: "2022 - 2024", school: "Universidade UNA Contagem", description: "Em curso: Análise e Desenvolvimento de Sistemas." },
+    { year: "2022 - 2024", school: "Universidade UNA Contagem", description: "Graduação em Análise e Desenvolvimento de Sistemas." },
     { year: "2023 - 2024", school: "Dev Club", description: "Especialização em Desenvolvimento Full Stack." }
   ];
 

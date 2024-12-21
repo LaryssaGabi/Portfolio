@@ -43,13 +43,28 @@ export const Line = styled.div`
 export const ProjectContainer = styled.div`
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   gap: 20px;
   padding: 50px 30px;
+  
 
-  @media screen and (max-width: 1900px) {
-    width: 60vw;
+  @media screen and (max-width: 1800px) {
+    width: 57vw;
     padding-right: 90px;
+    padding: 50px 30px;
+  }
+
+  @media screen and (max-width: 1200px) {
+    width: 50vw;
+    padding-right: 90px;
+    padding: 50px 30px;
+  }
+
+  @media screen and (max-width: 800px) {
+    padding: 0;
+    margin: 40px 0 40px 5px;
+    width: 80vw;
   }
 `;
 
@@ -62,12 +77,17 @@ export const ProjectCard = styled.div`
   transition: transform 0.2s; 
   transition: transform 0.3s ease, background-color 0.3s ease;
 
+
   @media screen and (max-width: 1900px) {
     width: 390px;
   }
 
+  @media screen and (max-width: 800px) {
+    width: 1000%;
+  }
+
   &:hover {
-    transform: scale(1.05); 
+    transform: scale(1.02); 
     background-color: #3b3b3b;
   }
 

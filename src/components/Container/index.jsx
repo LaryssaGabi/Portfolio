@@ -21,6 +21,7 @@ const MainContainer = styled.div`
   padding: 20px;
   min-height: 100vh;
   background-color: #f5f5f5;
+  
 
   @media screen and (max-width: 800px) {
     flex-direction: column;

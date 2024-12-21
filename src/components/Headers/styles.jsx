@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 export const Header = styled.header`
   position: absolute; 
-  top: 80;
-  right: 86px; 
+  top: 67px;
+  right: 92px; 
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -15,13 +15,44 @@ export const Header = styled.header`
 
   @media screen and (max-width: 1900px) {
     right: 73px; 
+    top: 60px;
   }
 
   @media screen and (max-width: 1200px) {
-    background-color: aqua;
     display: flex;
     align-items: center;
   }
+
+  @media screen and (max-width: 800px) {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 0px;
+    position: absolute;
+    width: 92%; 
+    right: 4%;
+    top: 60.3%;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  @media screen and (max-width: 800px) and (resolution: 96dpi) {
+  /* Estilos para escala de 100% */
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 0px;
+  position: absolute;
+  width: 92%;
+  right: 4%;
+  top: 62%;
+  margin: 0;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+  @media screen and (max-width: 480px) {
+    top: 99.90%;
+    }
+  
 
   button {
     background: transparent;

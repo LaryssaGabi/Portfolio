@@ -63,13 +63,13 @@ export const Pragrafo = styled.p`
 
   @media screen and (max-width: 1250px) {
     font-size: 0.8rem;
-    width: 50vw;
+    width: 100%;
   }
 
-  @media screen and (max-width: 770px) {
+  @media screen and (max-width: 800px) {
       padding-right: 5px;
-      font-size: 0.75rem;
-      width: 46vw;
+      font-size: 0.8rem;
+      width: 180%;
     }
   `;
 
@@ -164,7 +164,7 @@ export const ContainerSkil = styled.div`
     justify-items: center;
   }
 
-  @media screen and (max-width: 770px) {
+  @media screen and (max-width: 800px) {
     grid-template-columns: repeat(2, 1fr);
   }
 }

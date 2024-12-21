@@ -13,16 +13,16 @@ export const Container = styled.div`
       height: 100%;
   }
 
-  @media screen and (max-width: 552px) {
-    gap: 20px; 
+  @media screen and (max-width: 535px) {
+    margin: 8vh 4vw; 
+  
   }
 
 `;
 
 export const ConteinerAbout = styled.div`
   display: flex;
-  width: 60vw;
-  background: transparent;
+  width: 60%;
 `;
 
 
@@ -36,16 +36,16 @@ export const Line = styled.div`
   box-shadow: 0 0 8px rgba(49, 162, 162, 0.6); 
   transition: box-shadow 0.3s ease-in-out; 
 
-  
   &:hover {
     box-shadow: 0 0 15px rgba(49, 162, 162, 1); 
   }
+
 `;
 
 export const Curriculo = styled.a`
- margin-top: 20px;
-width: 12vw;
-`;
+  margin-top: 20px;
+  width: 12vw;
+`;  
 
 export const Title = styled.h2`
   margin-top: 35px;
@@ -56,12 +56,17 @@ export const Title = styled.h2`
   @media screen and (max-width: 1900px) {
     font-size: 1.4rem;
   }
+
+  @media screen and (max-width: 500px) {
+    margin-left: 30px;
+  }
 `;
 
 export const ContainerEducation = styled.div`
   margin-left: 20px;
   margin-top: 20px;
   color: #fff;
+  width: 80%;
   background: transparent;
 `;
 
@@ -70,7 +75,7 @@ export const ContainerExperiencia = styled.div`
   margin-top: 20px;
   color: #fff;
   background: transparent;
-  width: 50vw;
+  width: 82%;
 `;
 
 export const TimelineItem = styled.div`
@@ -104,21 +109,27 @@ export const TimelineItem = styled.div`
 
 export const ContainerCertificado = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
   gap: 20px;
   justify-content: center;
   margin: 10px;
 
   @media screen and (max-width: 1900px) {
     grid-template-columns: repeat(3, 1fr); 
+    width: 100%;
   }
 
-  @media screen and (max-width: 1200px) {
+  @media screen and (max-width: 1500px) {
     grid-template-columns: repeat(2, 1fr);
+  }
+  @media screen and (max-width: 1200px) {
+    grid-template-columns: repeat(1, 1fr);
   }
 
   @media screen and (max-width: 800px) {
-    grid-template-columns: 1fr; 
+    grid-template-columns: repeat(2, 1fr);
+    width: 105%;
+    margin: 0 auto;
   }
 `;
 
@@ -131,13 +142,13 @@ export const CertificadoItem = styled.div`
   
 
   &:hover img {
-    transform: scale(1.05);  
+    transform: scale(1.02);  
     transition: transform 0.3s ease;  
   }
 `;
 
 export const CertificadoImage = styled.img`
-  width: 300px;
+  width: 92%;
   height: auto;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -145,7 +156,16 @@ export const CertificadoImage = styled.img`
   cursor: pointer;  
 
   @media screen and (max-width: 1900px) {
-    width: 200px;
+    width: 80%;
+  }
+  @media screen and (max-width: 1500px) {
+    width: 60%;
+  }
+
+  @media screen and (max-width: 800px) {
+    grid-template-columns: repeat(2, 1fr);
+    width: 90%;
+    margin: 0 auto;
   }
 `;
 
@@ -159,7 +179,7 @@ export const Modal = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 1000;
+  z-index: 100;
   `;
 
 export const ModalContent = styled.div`

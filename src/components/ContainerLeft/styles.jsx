@@ -21,6 +21,7 @@ export const Container = styled.div`
     @media screen and (max-width: 800px) {
       position: static; 
       width: 90%;    
+      height: calc(60vh - 100px); 
       margin: 0 auto;   
       display: flex;
       justify-content: center;
@@ -129,8 +130,6 @@ export const Line = styled.div`
   background-color: #4b4b4b;
   margin: 10px 0px 35px;
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
-
-
 `;
 
 export const ContainerDiv = styled.div`
@@ -166,9 +165,16 @@ export const ContainInfor = styled.div`
   gap: 35px;
   color: #fff;
   background: transparent;
+  /* background-color: aqua; */
 
+  @media screen and (max-width: 800px) {
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+   width: 100%;
+  }
 
-
+  
   div {
     display: flex;
     gap: 10px;
@@ -204,14 +210,9 @@ export const ContainInfor = styled.div`
     }
 
     @media screen and (max-width: 900px) {
-      width: 6vw;
+      width: 9vw;
       height: 5vh;
     }
 
-
-    @media screen and (max-width: 480px) {
-      width: 10vw;
-      height: 4vh;
-    }
   }
 `;

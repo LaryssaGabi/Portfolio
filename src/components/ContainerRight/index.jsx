@@ -7,9 +7,7 @@ function ContainerRight({ children }) {
     <>
       <Container>
         <Headers />
-        <Content>
-          {children}
-        </Content>
+        <Content>{children}</Content>
       </Container>
     </>
   );
