@@ -114,7 +114,7 @@ export const Section = styled.div`
     }
 
     @media screen and (max-width: 480px) {
-      width: 10%;
+      width: 25%;
       font-size: 10px;
     }
   }
