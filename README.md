@@ -1,6 +1,5 @@
 # Portfolio V5  
 Hello everyone!  
-Let me introduce myself, I’m Eki Zulfar Rachman. On this occasion, I’d like to share the portfolio website project that I’ve developed.  
 
 **Tech Stack used:**  
 - ReactJS  
