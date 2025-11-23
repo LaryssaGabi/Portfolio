@@ -127,9 +127,13 @@ const techStacks = [
   { name: "git", language: "Git" },
   { name: "github", language: "GitHub" },
   { name: "vscode", language: "VS Code" },
-   { 
+  { 
     customIcon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg",
     language: "IntelliJ IDEA" 
+  },
+  { 
+    customIcon: "/sankhya.png",
+    language: "Sankhya" 
   }
 ];
 
